@@ -1,9 +1,11 @@
-import { CounterWidget } from './components/CounterWidget'
+import { CounterWidget } from './components/CounterWidget';
+import { TextToggleWidget } from './components/TextToggleWidget';
 
 function App() {
   return (
     <>
     <CounterWidget/>
+    <TextToggleWidget/>
     </>
   )
 }

@@ -20,7 +20,7 @@ export function CounterWidget() {
   }
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md">
+    <div className="p-6 bg-white rounded-2xl shadow-md max-w-md mx-auto mb-20">
       <h3 className="text-xl font-semibold mb-4">დინამიური მრიცხველი</h3>
       <p className='counter-display mb-10 p-4 bg-white rounded-lg shadow-lg font-semibold inline-block'>{value}</p>
       <div className="buttons-container flex gap-20">
